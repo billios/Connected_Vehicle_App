@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map_location"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_speedometer"
+            android:icon="@drawable/speedometer"
+            android:title="Speedometer" />
+
+
+        <item android:title="Graphs"
+            android:icon="@drawable/graph">
+    <menu>
+
+        <item
+            android:id="@+id/nav_speed"
+            android:icon="@drawable/speedometer"
+            android:title="Speed" />
+        <item
+            android:id="@+id/nav_rpm"
+            android:icon="@drawable/dashboard"
+            android:title="RPM" />
+        <item
+            android:id="@+id/nav_coolant_temperature"
+            android:icon="@drawable/engine_coolant"
+            android:title="Coolant Temperature" />
+        <item
+            android:id="@+id/nav_mafpressure"
+            android:icon="@drawable/valve"
+            android:title="MAF Pressure" />
+        <item
+            android:id="@+id/nav_throttle"
+            android:icon="@drawable/pedals"
+            android:title="Throttle" />
+
+    </menu>
+</item>
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
